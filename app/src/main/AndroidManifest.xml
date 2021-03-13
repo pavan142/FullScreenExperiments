@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidExperiments">
         <activity
-            android:name="com.example.fullscreenexperiments.MainActivity">
+            android:name="com.example.fullscreenexperiments.MainActivity"
+            android:theme="@style/Theme.AndroidExperiments.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
